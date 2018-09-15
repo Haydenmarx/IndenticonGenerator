@@ -253,7 +253,7 @@ defmodule IdenticonGenerator do
   """  
 
   def save_image(image, input) do
-    File.write("#{input}.png", image)
+    File.write("identicons/#{input}.png", image)
   end
   
 end
